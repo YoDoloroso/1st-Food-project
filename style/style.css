@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+ul>li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff9ea;
+    height: 108px;
+    width: 1280px;
+}
+.items{
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    height: 38px;
+    width: 122px;
+    background-color: #ffcb45;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* hero main */
+.hero{
+    background-image: url(../image/shapes.png);
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-heading{
+    font-size: 50px;
+    margin-bottom: 21px;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-around;
+}
+.hero-first{
+    display: flex;
+    align-items: center;
+}
+
+/* about section */
+.about-container{
+    margin-top: 80px;
+    text-align: center;
+}
+.my-con{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.ss{
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+.rr{
+    color: #616161;
+    font-weight: 500;
+}
+
+/* popular menu */
+.menu{
+    text-align: center;
+    margin-top: 80px;
+}
+.bg{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.food{
+    text-align: center;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 80px;
+}
