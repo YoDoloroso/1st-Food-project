@@ -2,6 +2,9 @@
     margin: 0;
     font-family: Roboto;
 }
+body{
+    overflow-x: hidden;
+}
 ul>li{
     list-style: none;
 }
@@ -33,7 +36,7 @@ nav{
 /* hero main */
 .hero{
     background-image: url(../image/shapes.png);
-    height: 90vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -89,3 +92,54 @@ nav{
     gap: 15px;
     margin-bottom: 80px;
 }
+.menu-btn{
+    text-align: center;
+}
+
+/* Review section */
+.img{
+    margin-left: 80px;
+}
+.review{
+    display: flex;
+    margin-top: 45px;
+}
+.rv{
+    margin-left: -68px;
+    margin-top: 40px;
+}
+.silvana{
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 28px;
+    margin-top: 32px;
+    width: 400px;
+}
+.review-card{
+    display: flex;
+    gap: 20px;
+}
+
+/* discount */
+
+.discount{
+  background-image: url(../image/bg\ food.png);
+  height: 305px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+/* Footer container */
+
+.foot{
+    background-image: url(../image/bg-image.png);
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
