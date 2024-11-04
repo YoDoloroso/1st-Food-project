@@ -138,8 +138,19 @@ nav{
 
 .foot{
     background-image: url(../image/bg-image.png);
-    height: 360px;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 84px;
+}
+.nn{
+    margin-top: 32px; 
+    display: flex;
+    justify-content: first baseline;
+    gap: 24px;
 }
 
